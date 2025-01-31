@@ -28,7 +28,7 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body class="sora-font">
-    <header class="mb-20">
+    <header class="mb-10 md:mb-25">
         <!-- nav bar -->
          <nav class="mb-10 md:mb-20 w-full mx-auto flex items-center justify-between px-2 md:justify-around bg-[#FFF9F4] border-b-1 md:border-none">
             <!-- logo -->
@@ -75,8 +75,54 @@
     </header>
     <main>
         <!-- browse section -->
-         <section>
-            <h4 class="adlam-font">Browse By Categories</h4>
+         <section class="w-11/12 md:w-5/6 mx-auto mb-10 lg:mb-30">
+            <h4 class="adlam-font text-2xl md:text-4xl mb-5 md:mb-8">Browse By Categories</h4>
+            <!-- cards -->
+             <div class="grid grid-cols-2 lg:grid-cols-6 gap-2">
+                <!-- dog -->
+                <div class="bg-[#F9DF8A] rounded-xl text-center space-y-3 py-8">
+                    <div class="flex justify-center mb-7"><img class="bg-white rounded-full p-6" src="./c1-assets/dog-cartoon.png" alt="dog-cartoon"></div>
+                    <h5 class="adlam-font text-xl">Dog</h5>
+                    <p class="text-base">3 items</p>
+
+                </div>
+                <!-- fish -->
+
+                <div class="bg-[#F9DF8A] rounded-md text-center space-y-3 py-8">
+                    <div class="flex justify-center mb-7"><img class="bg-white rounded-full p-6" src="./c1-assets/fish-cartoon.png" alt="fish-cartoon"></div>
+                    <h5 class="adlam-font text-xl">Fish</h5>
+                    <p class="text-base">3 items</p>
+
+                </div>
+                <!-- cat -->
+                <div class="bg-[#F9DF8A] rounded-md text-center space-y-3 py-8">
+                    <div class="flex justify-center mb-7"><img class="bg-white rounded-full p-6" src="./c1-assets/cat-cartoon.png" alt="cat-cartoon"></div>
+                    <h5 class="adlam-font text-xl">cat</h5>
+                    <p class="text-base">3 items</p>
+
+                </div>
+                <!-- bird -->
+                <div class="bg-[#F9DF8A] rounded-md text-center space-y-3 py-8">
+                    <div class="flex justify-center mb-7"><img class="bg-white rounded-full p-6" src="./c1-assets/bird-cartoon.png" alt="bird-cartoon"></div>
+                    <h5 class="adlam-font text-xl">Bird</h5>
+                    <p class="text-base">3 items</p>
+
+                </div>
+                <!-- Squirrel -->
+                <div class="bg-[#F9DF8A] rounded-md text-center space-y-3 py-8">
+                    <div class="flex justify-center mb-7"><img class="bg-white rounded-full p-6" src="./c1-assets/mouse-cartoon.png" alt="mouse-cartoon"></div>
+                    <h5 class="adlam-font text-xl">Small Pet</h5>
+                    <p class="text-base">3 items</p>
+
+                </div>
+                <!-- Rabbit -->
+                <div class="bg-[#F9DF8A] rounded-md text-center space-y-3 py-8">
+                    <div class="flex justify-center mb-7"><img class="bg-white rounded-full p-6" src="./c1-assets/rabbit-cartoon.png" alt="rabbit-cartoon"></div>
+                    <h5 class="adlam-font text-xl">Rabbit</h5>
+                    <p class="text-base">2 items</p>
+
+                </div>
+             </div>
          </section>
 
     </main>
