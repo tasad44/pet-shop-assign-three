@@ -4,27 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pet-shop</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/78cd75abdf.js" crossorigin="anonymous"></script>
     <!-- GOOGLE FONT -->
+     <!-- adalam font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <!-- sora font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
     <style>
-        .adlam-display-regular {
+        .adlam-font {
   font-family: "ADLaM Display", serif;
-          }
+          }  
+.sora-font {
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+}
     </style>
     <!-- TAILWiND CDN -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <header>
+<body class="sora-font">
+    <header class="mb-20">
+        <!-- nav bar -->
+         <nav class="mb-10 md:mb-20 w-full mx-auto flex items-center justify-between px-2 md:justify-around bg-[#FFF9F4] border-b-1 md:border-none">
+            <!-- logo -->
+             <div class="flex gap-2 items-center">
+                <img src="./c1-assets/logo-header.png" alt="">
+                <p class="hidden md:flex">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
+             </div>
+             <!-- menu -->
+              <div>
+                <ul class="hidden md:flex gap-4">
+                    <li><a href="">Find a pet</a></li>
+                    <li><a href="">Breeds</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+              </div>
+              <!-- icon and login -->
+               <div class="hidden md:flex gap-4 items-center">
+                <i class="fa-regular fa-bell"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button class="border-1 rounded-md px-3 py-1 border-[#FFDC26]">Login</button>
+                <button class="rounded-md px-3 py-1 bg-[#FFDC26]">Register</button>
+               </div>
+               <!-- hamberger for mobile -->
+                <div class="md:hidden text-3xl">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+         </nav>
+
+         <!-- banner section -->
+          <div class="w-11/12 md:w-5/6 mx-auto">
+            <!-- banner text -->
+            <div class="space-y-5 md:w-1/2 relative z-10">
+                <h3 class="adlam-font text-4xl md:text-5xl">Pamper Your Pet, Because They Deserve the Best</h3>
+            <p class="text-gray-400">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="rounded-md px-3 py-1 bg-[#FFDC26]">Find a pet</button>
+            </div>
+            <!-- banner image -->
+             <div class="-mt-22 md:-mt-80">
+                <img src="./c1-assets/cat-big.png" alt="cat">
+             </div>
+
+          </div>
 
     </header>
     <main>
+        <!-- browse section -->
+         <section>
+            <h4 class="adlam-font">Browse By Categories</h4>
+         </section>
 
     </main>
     <footer>
-        
+
     </footer>
 
     
