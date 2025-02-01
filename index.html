@@ -25,7 +25,7 @@
 }
     </style>
     <!-- TAILWiND CDN -->
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script> 
 </head>
 <body class="sora-font">
     <header class="mb-10 md:mb-25">
@@ -62,6 +62,7 @@
             <!-- banner text -->
             <div class="space-y-5 md:w-1/2 relative z-10">
                 <h3 class="adlam-font text-4xl md:text-5xl">Pamper Your Pet, Because They Deserve the Best</h3>
+                <div class="w-16 h-16 bg-yellow-600 rounded-full animate-ping"></div>
             <p class="text-gray-400">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
             <button class="rounded-md px-3 py-1 bg-[#FFDC26]">Find a pet</button>
             </div>
@@ -132,7 +133,7 @@
             <!-- cards -->
              <div class="grid gap-5 grid-cols-2 md:grid-cols-5 ">
                 <!-- dog T-shirt card -->
-                 <div class="bg-[#F9DF8A] px-8 pt-10 rounded-md col-span-2 md:row-span-3">
+                 <div class="bg-[#F9DF8A] px-3 md:px-8 pt-10 rounded-md col-span-2 md:row-span-3">
                     <!-- T-shirt card Text -->
                      <div>
                         <h4 class="adlam-font text-xl md:text-3xl mb-5 md:mb-8">T-Shirt For Dogs</h4>
@@ -140,7 +141,7 @@
                     <button class="rounded-md px-3 py-1 bg-white">Shop Now</button>
                      </div>
                      <!-- T-shirt card image -->
-                      <div class="flex justify-end -mt-30"><img src="./c1-assets/cute-pet-small.png" alt="dog-with-shirt"></div>
+                      <div class="flex justify-end md:-mt-30 -mt-25"><img src="./c1-assets/cute-pet-small.png" alt="dog-with-shirt"></div>
 
                  </div>
                  <!-- small cards -->
@@ -234,6 +235,25 @@
 
 
           </section>
+
+          <!--FAQ section  -->
+          <p class="text-yellow-500 adlam-font text-2xl md:text-3xl text-center mb-10">Your Queries</p>
+          <section class="w-11/12 md:w-5/6 mx-auto mb-10 lg:mb-30 bg-[#FFF9F4] pl-3 space-y-10 rounded-xl">
+            <!-- question 1 -->
+            <p class="adlam-font text-2xl md:text-3xl mb-5 md:mb-5 text-center">Do you sell pet accessories like beds, cages, and toys?</p>
+            <div class="overflow-y-scroll font-light h-18 text-center">Absolutely! We have a wide range of pet accessories, including beds, cages, toys,
+               leashes, carriers, and scratching posts. We have a wide range of items designed to care for, manage, and enhance the lives of pets. These include collars and leashes for dogs and cats, which are essential for safe outings and identification. Harnesses offer an alternative to collars, providing more control and comfort.</div>
+               <!-- question 2 -->
+                <p class="adlam-font text-2xl md:text-3xl mb-5 md:mb-5 text-center">Do you offer pet insurance?</p>
+                <div class="overflow-y-scroll font-light h-18 text-center">We do not sell pet insurance directly, but we can recommend good pet insurance providers
+                   to ensure your pet’s health is covered. Pet insurance is an insurance policy bought by a pet owner which helps to lessen the overall costs of expensive veterinary bills. This coverage is similar to health insurance policies for humans. Pet insurance will cover, either entirely or in part, the often expensive veterinary procedures.</div>
+              <!-- question  -->  
+               <p class="adlam-font text-2xl md:text-3xl mb-5 md:mb-5 text-center">Can I get advice on pet training?</p>  
+               <div class="overflow-y-scroll font-light h-18 text-center ">Yes! Our staff can provide basic pet training tips, and we also collaborate with professional trainers for specialized training sessions. There are two common methods of training a pet:Aversive-based (discipline) training is when you use positive punishment and negative reinforcement techniques with your pet. Reward-based methods use rewards only for the behavior that you want your pet to follow</div> 
+
+
+          </section>
+      
 
           <!-- Everyday Low price section -->
            <section class="w-11/12 md:w-5/6 mx-auto mb-10 lg:mb-30">
@@ -329,7 +349,6 @@
 
 
     </footer>
-
     
 </body>
 </html>
