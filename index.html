@@ -7,7 +7,7 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/78cd75abdf.js" crossorigin="anonymous"></script>
     <!-- GOOGLE FONT -->
-     <!-- adalam font -->
+     <!-- adlam font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
@@ -242,7 +242,7 @@
             <!-- price -->
              <div class="md:flex gap-6 space-y-5 mt-10">
               <!-- grooming price -->
-               <div class="grid grid-cols-2 rounded-xl bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] items-center py-10 pl-8 pr-1">
+               <div class="grid grid-cols-2 flex-3 rounded-xl bg-gradient-to-br from-[#F8CCFB] to-[#ACD2FD] items-center py-5 pl-8 pr-1 mt-4">
                 <!-- text -->
                  <div class="md:flex-1 mb-32 md:mb-1">
                   <p class="text-base text-[#111111] md:flex hidden mb-1">Under Price</p>
@@ -252,21 +252,21 @@
 
                  </div>
                  <!-- image -->
-                  <div class="p-0">
-                    <img class="mr-0" src="./c1-assets/cute-dog-mid.png" alt="">
+                  <div class="p-0 w-full">
+                    <img class="w-full" src="./c1-assets/cute-dog-mid.png" alt="">
 
                   </div>
 
                </div>
                <!-- T-Shirt price -->
-               <div class="grid grid-cols-2 md:relative gap-x-0 rounded-xl bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] items-center px-4 py-2">
+               <div class="grid grid-cols-2 flex-2 md:relative gap-x-0 rounded-xl bg-gradient-to-br from-[#FFF9F4] to-[#F9DF8A] items-center px-5 py-2">
                 <!-- text -->
                  <div class="z-10 mb-40 md:mb-70">
                   <h4 class="adlam-font text-xl md:text-3xl">T-Shirt for Dogs</h4>
                   <h3 class="adlam-font text-3xl md:text-4xl text-yellow-500">$7.99</h3>
                  </div>
                  <!-- image -->
-                 <div class="pt-10 flex justify-self-end md:absolute md:right-2 md:top-5">
+                 <div class="px-3 flex justify-self-end md:absolute md:right-2 md:top-5">
                   <img src="./c1-assets/cute-pet-mid.png" alt="">
 
                  </div>
@@ -277,10 +277,56 @@
 
 
            </section>
+           <!-- news section -->
+           <section class="w-11/12 md:w-5/6 mx-auto  bg-[#FFF9F4] rounded-lg md:flex gap-20 justify-center items-center py-10">
+            <!-- image -->
+             <div class="flex justify-center">
+              <img src="./c1-assets/cute-pet-mid.png" alt="">
 
-
+             </div>
+             <!-- text -->
+              <div class="space-y-3 flex flex-col items-center justify-center px-10">
+                <h4 class="adlam-font text-2xl md:text-4xl">Get Pawsome News!</h4>
+                <p class=" text-base text-center font-light">Exclusive training tips, ticks, product deals and more.</p>
+                <div class="w-full rounded-md bg-white text-gray-400"><input type="email" class="h-10 p-2" placeholder="Enter Your email..."></div>
+              
+                <button class="rounded-md px-3 py-1 bg-[#FFDC26]">Subscribe</button>
+              </div>
+           </section>
     </main>
-    <footer>
+    <footer class="w-full bg-[#FFDC2680] px-7 pt-90 pb-20 flex flex-col gap-10 md:px-20 md:grid md:grid-cols-3 md:gap-x-40 md:items-center">
+      <!-- logo and text -->
+       <div class="space-y-3">
+         <!-- logo -->
+         <div class="flex gap-2 items-center">
+          <img src="./c1-assets/logo-footer.png" alt="">
+          <p class="md:flex">Browse<span class="text-[#FFDC26]">4</span>Pets</p>
+         </div>
+       <!-- text -->
+        <p class="text-[#111111B3] font-normal">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+       </div>
+       <!-- footer menu -->
+        <div class="space-y-2">
+          <p>Find a pet</p>
+          <p>Breeds</p>
+          <p>Contact us</p>
+
+        </div>
+        <!-- social media -->
+         <div>
+          <!-- text -->
+           <p class="mb-2">Follow Us</p>
+           <!-- icons -->
+            <div class="flex gap-5">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+
+
+         </div>
+
 
     </footer>
 
